@@ -1,5 +1,5 @@
 ---
-path: "/post-one"
+path: "/my-name-is-isa-the-cat"
 date: "2018-06-30"
 title: "My First Gatsby Post"
 author: "Isa Cat"
