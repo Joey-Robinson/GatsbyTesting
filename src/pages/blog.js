@@ -13,7 +13,6 @@ const BlogPage = ({data}) => (
         <br/>
         <br/>
         <Link
-          style={{color: 'black'}} 
           to={post.node.frontmatter.path}>Read More</Link>
         <br/>
         <br/>

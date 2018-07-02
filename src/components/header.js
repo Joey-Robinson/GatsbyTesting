@@ -3,17 +3,9 @@ import Link from 'gatsby-link'
 import Menu from './menu';
 
 const Header = ({ siteTitle }) => (
-  <div
-    style={{
-      background: '#222'
-    }}
-  >
-    <div
-      style={{
-        maxWidth: 960
-      }}
-    >
-      <h1 style={{ margin: 0, color: 'white'}}>
+  <div>
+    <div>
+      <h1>
         <Menu />
       </h1>
     </div>
