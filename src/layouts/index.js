@@ -6,7 +6,7 @@ import Menu from '../components/menu'
 import '../styles/main.scss'
 
 const Layout = ({ children, data }) => (
-  <div>
+  <div className="PrimaryLayout">
     <Helmet
       title={data.site.siteMetadata.title}
       meta={[
