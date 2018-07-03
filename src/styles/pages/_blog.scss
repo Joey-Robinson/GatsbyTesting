@@ -1,0 +1,21 @@
+.Blog {
+  display: grid;
+  grid-template-columns: 50vw;
+  margin: 0 auto;
+  width: 50%;
+  &-Test {
+    background: #222;
+    margin-bottom: 1rem;
+  }
+  &-Content {
+    background: cornflowerblue;
+    width: 75%;
+    margin: 0 auto;
+    &-Main {
+      & p {
+        padding: 1rem;
+        font-size: 2rem;
+      }
+    }
+  }
+}

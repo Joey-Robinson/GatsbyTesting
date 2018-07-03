@@ -12,7 +12,12 @@ html {
 }
 
 body {
-  color: black;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  color: white;
+  background: brown;
+  height: 200vh;
   font-weight: 300;
   line-height: 1.6;
 }

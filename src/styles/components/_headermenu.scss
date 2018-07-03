@@ -1,7 +1,33 @@
 .Menu {
-  & ul {
-    display: flex;
-    justify-content: space-around;
-    list-style: none;
+  display: grid;
+  grid-template-columns: repeat(6, 10rem);
+  justify-items: center;
+  font-size: 2rem;
+  padding: 0;
+  margin: 0;
+  margin-top: 1rem;
+  background: whitesmoke;
+  width: 32%;
+  &-One {
+    grid-column: 1;
+  }
+  &-Two {
+    grid-column: 2;   
+  }
+  &-Three {
+    grid-column: 3;
+  }
+  &-Four {
+    grid-column: 4;
+  }
+  &-Five {
+    grid-column: 5;
+  }
+  &-Six {
+    grid-column: 6;
+  }
+  & a {
+    color: #222;
+    text-decoration: none;
   }
 }

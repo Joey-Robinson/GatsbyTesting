@@ -3,7 +3,7 @@ import Link from 'gatsby-link'
 import Menu from './menu';
 
 const Header = ({ siteTitle }) => (
-  <div className="Header">
+  <div>
     <Menu />
   </div>
 )
